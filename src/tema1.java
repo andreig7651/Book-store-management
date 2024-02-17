@@ -5,7 +5,7 @@ import java.text.SimpleDateFormat;
 import java.util.Scanner;
 import java.util.*;
 
-public class tema1 {
+public class Tema1 {
 
     public static void main(String[] args){
 
@@ -19,7 +19,7 @@ public class tema1 {
         ArrayList<Countries> countries = administrator.getCountries();
 
         try {
-            File myfile = new File("D:\\Anul 2\\Programare orientata pe obiecte\\Tema 1\\src\\init\\init\\books.in");
+            File myfile = new File("./init/init/books.in");
             Scanner myReader = new Scanner(myfile);
             myReader.nextLine();
             while (myReader.hasNextLine()) {
@@ -87,7 +87,7 @@ public class tema1 {
         }
 
         try {
-            File myfile = new File("D:\\Anul 2\\Programare orientata pe obiecte\\Tema 1\\src\\init\\init\\languages.in");
+            File myfile = new File("./init/init/languages.in");
             Scanner myReader = new Scanner(myfile);
             myReader.nextLine();
             while (myReader.hasNextLine()) {
@@ -126,7 +126,7 @@ public class tema1 {
         }
 
         try {
-            File myfile = new File("D:\\Anul 2\\Programare orientata pe obiecte\\Tema 1\\src\\init\\init\\authors.in");
+            File myfile = new File("./init/init/authors.in");
             Scanner myReader = new Scanner(myfile);
             myReader.nextLine();
             while (myReader.hasNextLine()) {
@@ -163,7 +163,7 @@ public class tema1 {
         }
 
         try {
-            File myfile = new File("D:\\Anul 2\\Programare orientata pe obiecte\\Tema 1\\src\\init\\init\\books-authors.in");
+            File myfile = new File("./init/init/books-authors.in");
             Scanner myReader = new Scanner(myfile);
             myReader.nextLine();
             while (myReader.hasNextLine()) {
@@ -200,7 +200,7 @@ public class tema1 {
         }
 
         try {
-            File myfile = new File("D:\\Anul 2\\Programare orientata pe obiecte\\Tema 1\\src\\init\\init\\editorial-groups.in");
+            File myfile = new File("./init/init/editorial-groups.in");
             Scanner myReader = new Scanner(myfile);
             myReader.nextLine();
 
@@ -234,7 +234,7 @@ public class tema1 {
         }
 
         try {
-            File myfile = new File("D:\\Anul 2\\Programare orientata pe obiecte\\Tema 1\\src\\init\\init\\publishing-brands.in");
+            File myfile = new File("./init/init/publishing-brands.in");
             Scanner myReader = new Scanner(myfile);
             myReader.nextLine();
 
@@ -268,7 +268,7 @@ public class tema1 {
         }
 
         try {
-            File myfile = new File("D:\\Anul 2\\Programare orientata pe obiecte\\Tema 1\\src\\init\\init\\editorial-groups-books.in");
+            File myfile = new File("./init/init/editorial-groups-books.in");
             Scanner myReader = new Scanner(myfile);
             myReader.nextLine();
 
@@ -308,7 +308,7 @@ public class tema1 {
         }
 
         try {
-            File myfile = new File("D:\\Anul 2\\Programare orientata pe obiecte\\Tema 1\\src\\init\\init\\publishing-brands-books.in");
+            File myfile = new File("./init/init/publishing-brands-books.in");
             Scanner myReader = new Scanner(myfile);
             myReader.nextLine();
 
@@ -350,7 +350,7 @@ public class tema1 {
         }
 
         try {
-            File myfile = new File("D:\\Anul 2\\Programare orientata pe obiecte\\Tema 1\\src\\init\\init\\publishing-retailers.in");
+            File myfile = new File("./init/init/publishing-retailers.in");
             Scanner myReader = new Scanner(myfile);
             myReader.nextLine();
 
@@ -384,7 +384,7 @@ public class tema1 {
         }
 
         try {
-            File myfile = new File("D:\\Anul 2\\Programare orientata pe obiecte\\Tema 1\\src\\init\\init\\countries.in");
+            File myfile = new File("./init/init/countries.in");
             Scanner myReader = new Scanner(myfile);
             myReader.nextLine();
 
@@ -417,7 +417,7 @@ public class tema1 {
         }
 
         try {
-            File myfile = new File("D:\\Anul 2\\Programare orientata pe obiecte\\Tema 1\\src\\init\\init\\publishing-retailers-countries.in");
+            File myfile = new File("./init/init/publishing-retailers-countries.in");
             Scanner myReader = new Scanner(myfile);
             myReader.nextLine();
 
@@ -456,7 +456,7 @@ public class tema1 {
         }
 
         try {
-            File myfile = new File("D:\\Anul 2\\Programare orientata pe obiecte\\Tema 1\\src\\init\\init\\publishing-retailers-books.in");
+            File myfile = new File("./init/init/publishing-retailers-books.in");
             Scanner myReader = new Scanner(myfile);
             myReader.nextLine();
 
@@ -495,7 +495,7 @@ public class tema1 {
         }
 
         try {
-            File myfile = new File("D:\\Anul 2\\Programare orientata pe obiecte\\Tema 1\\src\\init\\init\\publishing-retailers-editorial-groups.in");
+            File myfile = new File("./init/init/publishing-retailers-editorial-groups.in");
             Scanner myReader = new Scanner(myfile);
             myReader.nextLine();
 
@@ -534,7 +534,7 @@ public class tema1 {
         }
 
         try {
-            File myfile = new File("D:\\Anul 2\\Programare orientata pe obiecte\\Tema 1\\src\\init\\init\\publishing-retailers-publishing-brands.in");
+            File myfile = new File("./init/init/publishing-retailers-publishing-brands.in");
             Scanner myReader = new Scanner(myfile);
             myReader.nextLine();
 
